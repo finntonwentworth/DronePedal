@@ -1,0 +1,229 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "8b324b0a-205a-4707-93d2-08a9fcbdb565")
+	(paper "A4")
+	(title_block
+		(title "Drone Pedal ")
+		(date "2025-02-15")
+		(rev "1.0.0")
+	)
+	(lib_symbols)
+	(sheet
+		(at 134.62 109.22)
+		(size 41.91 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1c133e6e-26a6-4219-bb4c-bebd46db40d9")
+		(property "Sheetname" "Voice #3"
+			(at 134.62 108.5084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "voice3.kicad_sch"
+			(at 134.62 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DronePedal"
+				(path "/8b324b0a-205a-4707-93d2-08a9fcbdb565"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 27.94)
+		(size 41.91 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2c52f77a-d1fb-4800-8c1a-460705a9794d")
+		(property "Sheetname" "Voice #1"
+			(at 134.62 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "voice1.kicad_sch"
+			(at 134.62 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DronePedal"
+				(path "/8b324b0a-205a-4707-93d2-08a9fcbdb565"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 53.34 67.31)
+		(size 39.37 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b2705c0b-c9fc-4583-ad45-eea646944259")
+		(property "Sheetname" "Signal Input, Power, Filtering"
+			(at 53.34 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "signal_power_filter.kicad_sch"
+			(at 53.34 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DronePedal"
+				(path "/8b324b0a-205a-4707-93d2-08a9fcbdb565"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 68.58)
+		(size 41.91 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bfc653ba-da11-4516-af3b-bdea57ebe0ed")
+		(property "Sheetname" "Voice #2"
+			(at 134.62 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "voice2.kicad_sch"
+			(at 134.62 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DronePedal"
+				(path "/8b324b0a-205a-4707-93d2-08a9fcbdb565"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 218.44 64.77)
+		(size 44.45 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ef4d6ec6-1e23-4d53-9358-ab4233b2ca2d")
+		(property "Sheetname" "Mixer, Scaling"
+			(at 218.44 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mixer_scaling.kicad_sch"
+			(at 218.44 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DronePedal"
+				(path "/8b324b0a-205a-4707-93d2-08a9fcbdb565"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
