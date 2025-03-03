@@ -300,23 +300,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 8.89 0)
+			(property "Reference" "J2"
+				(at -0.635 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "AudioJack2"
-				(at 0 6.35 0)
+			(property "Value" "Guitar Jack"
+				(at -0.635 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 				(at 0 0 0)
 				(effects
 					(font
@@ -335,6 +335,15 @@
 				)
 			)
 			(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Link" "https://www.digikey.com/en/products/detail/switchcraft-inc/L11/109521"
 				(at 0 0 0)
 				(effects
 					(font
@@ -420,7 +429,7 @@
 							)
 						)
 					)
-					(number "S"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -438,7 +447,7 @@
 							)
 						)
 					)
-					(number "T"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3660,7 +3669,7 @@
 				)
 			)
 		)
-		(property "Value" "Barrel_Jack"
+		(property "Value" "PWR_IN"
 			(at 69.596 26.162 0)
 			(effects
 				(font
@@ -4185,10 +4194,10 @@
 				(hide yes)
 			)
 		)
-		(pin "S"
+		(pin "2"
 			(uuid "ce99470e-13ee-419a-8663-67e69cdc2bb1")
 		)
-		(pin "T"
+		(pin "1"
 			(uuid "1b8193d0-a3b6-4c9c-86f9-54558245e123")
 		)
 		(instances
@@ -4836,7 +4845,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
 			(at 219.71 39.37 0)
 			(effects
 				(font
@@ -4994,7 +5003,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
 			(at 189.23 29.845 0)
 			(effects
 				(font
